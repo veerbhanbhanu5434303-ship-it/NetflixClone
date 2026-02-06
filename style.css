@@ -1,0 +1,317 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    /* font-family: unset; */
+
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url("assets/images/IN-en-20260112-TRIFECTA-perspective_004732f9-7464-4a7c-940b-4a51c4f0f73f_large.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(2150px, 100vw);
+    height: 84vh;
+    position: relative;
+}
+
+.navv {
+    padding-top: 7px;
+
+}
+
+
+
+.main .box {
+    height: 90vh;
+    width: 100%;
+    opacity: 0.74;
+    background-color: black;
+    position: absolute;
+    top: 0%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 77vw;
+    height: 65px;
+    margin: auto;
+}
+
+nav img {
+    width: 149px;
+    position: relative;
+    z-index: 5;
+}
+
+nav button {
+    font-size: 16px;
+    position: relative;
+    z-index: 5;
+}
+
+.hero {
+    position: relative;
+    z-index: 10;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 75vh;
+    font-family: 'Martel Sans', sans-serif;
+    /* font-family: unset; */
+    font-weight: 1000;
+    text-align: center;
+}
+
+.spann {
+    font-size: 58px;
+}
+
+.lastspan {
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 15px;
+}
+@media screen and (max-width : 500px) {
+    nav{
+        max-width: 96vw;
+    }
+} 
+
+
+
+.btn1 {
+    margin-top: 32px;
+    padding: 15px 37px;
+    font-size: 23px;
+    font-weight: 600;
+    border-radius: 6px;
+    border: none;
+    background-color: rgb(228, 2, 2);
+    color: white;
+    cursor: pointer;
+}
+@media screen and (max-width : 1000px) {
+    .spann{
+        font-size: 32px;
+    }
+    .lastspan{
+        font-size: 16px;
+    }
+    .btn1{
+        font-size: 16px;
+        padding: 13px 36px;
+    }
+}
+
+
+
+.line {
+    background-color: gray;
+    height: 4px;
+    position: relative;
+    z-index: 10;
+}
+
+.butt {
+    border-radius: 4px;
+    border: 1px solid gray;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.but1 {
+    color: white;
+    background-color: rgba(23, 23, 23, 0.2);
+    padding: 6px 24px;
+    margin-right: 7px;
+}
+
+.but2 {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 7px 11px;
+    cursor: pointer;
+    font-weight: 800;
+    font-size: 14px;
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 10;
+    color: white;
+    margin: auto;
+    max-width: 70vw;
+
+}
+
+@media screen and (max-width : 1000px) {
+    .first {
+        flex-wrap: wrap;
+        margin-top: 23px;
+    }
+}
+
+.spannn {
+    display: flex;
+    flex-direction: column;
+    width: 44vw;
+    font-family: 'Poppins', sans-serif;
+}
+
+.txt1 {
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.txt2 {
+    font-size: 19px;
+}
+
+
+.secimg {
+    display: flex;
+    position: relative;
+
+}
+
+.secimg img {
+    position: relative;
+    z-index: 10;
+    width: 406px;
+}
+
+.secimg video {
+    position: absolute;
+    top: 20%;
+    width: 345px;
+    left: 11%;
+}
+
+.line2 {
+    margin-top: 52px;
+}
+
+.sect {
+    display: flex;
+    position: relative;
+}
+
+.sect video {
+    position: absolute;
+    top: 17%;
+    width: 345px;
+    left: 11%;
+}
+
+.sect img {
+    position: relative;
+    z-index: 10;
+    width: 436px;
+}
+
+
+.faq h2 {
+    color: white;
+    text-align: center;
+    padding: 25px;
+    font-size: 40px;
+}
+@media screen and (max-width : 1000px) {
+    .faq h2{
+        font-size: 27px;
+    }
+    .txt1{
+        font-size: 28px;
+    }
+    .txt2{
+        font-size: 16px;
+    }
+} 
+
+.faqbox {
+    display: flex;
+    font-size: 19px;
+    color: white;
+    background-color: gray;
+    padding: 22px;
+    max-width: 55vw;
+    margin: 15px auto;
+    justify-content: space-between;
+    background-color: #2d2d2d;
+}
+
+.faqbox:hover {
+    transition: all 0.5s ease-out;
+    background-color: rgb(119, 112, 112);
+    cursor: pointer;
+}
+
+
+.finish {
+    margin-left:40vw;
+}
+.ques {
+    color: rgb(209, 205, 205);
+    margin-top: 10vh;
+    margin-bottom: 7vh;
+}
+
+footer {
+    margin: auto;
+    max-width: 77vw;
+
+}
+
+.last {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+@media screen and (max-width : 1000px) {
+    .last{
+        grid-template-columns: 1fr 1fr;
+    }
+    footer{
+        margin-left: 21vw;
+    }
+}
+
+
+.text-que {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+
+.text-que a {
+    font-size: 12px;
+    color: rgb(209, 205, 205);
+}
+
+.netflixx {
+    color: rgb(209, 205, 205);
+    font-size: 14px;
+    margin: 50px 0px;
+    padding-bottom: 20vh;
+}
+
+.news {
+    margin-left: 3pxpx;
+    margin-top: 51px;
+    padding: 5px 13px;
+    font-size: 13px;
+}
